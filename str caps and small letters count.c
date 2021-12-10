@@ -9,14 +9,14 @@ void main()
 	{
 		if(s[i]>=97 && s[i]<=122)
 		{
-			printf("%c",s[i-32]);
+			printf("%c",s[i]-32);
 			count++;
 		}
 		else
 		{
-			printf("%c",s[i+32]);
+			printf("%c",s[i]+32);
 			flag++;
 		}
 	}
-	printf("%d %d",count,flag);
+	printf(" %d %d",count,flag);
 }
